@@ -111,19 +111,6 @@ Implementation evidence is available in [`screenshots/`](screenshots/). Screensh
 - Consider adding input validation, pagination, structured logging, alarms, and automated tests before production use.
 - Use least-privilege IAM permissions and avoid placing secrets in source control.
 
-## Cost and cleanup
-
-This project was built as a learning exercise in the `ap-south-1` (Mumbai) region. AWS resources may incur charges depending on usage and configuration.
-
-When finished, review and delete resources you no longer need, including:
-- API Gateway API and stages
-- Lambda function and any project-specific IAM policy/role
-- Cognito user pool and app client (only if no longer needed)
-- DynamoDB table `Orders`
-- CloudWatch log groups created for this project
-
-Delete only resources belonging to this project, and verify the AWS billing console after cleanup.
-
 ## Repository structure
 
 ```text
