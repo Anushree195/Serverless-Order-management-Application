@@ -4,7 +4,7 @@ A serverless order-management API built with **Amazon API Gateway (HTTP API), AW
 
 ## Architecture
 
-![AWS serverless architecture](architecture.png)
+![AWS serverless architecture](architecture_corrected.png)
 
 **Request flow**
 1. A client sends an authenticated request to API Gateway.
